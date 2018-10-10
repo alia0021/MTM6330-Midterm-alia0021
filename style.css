@@ -1,0 +1,129 @@
+/* received helped through; https://www.youtube.com/watch?v=ylFLVBbB9AM
+online tutorials  */
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url('./img/scott-webb-266121-unsplash.jpg');
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+.loginBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  height: 420px;
+  padding: 80px 40px;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.5);
+}
+.user {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: calc(-100px / 2);
+  left: calc(50% - 50px);
+}
+h2 {
+  margin: 0;
+  padding: 0 0 20px;
+  color: #efe;
+  text-align: center;
+}
+
+.loginBox p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  color: #1b9bff;
+}
+
+.loginBox input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.loginBox input[type='text'],
+.loginBox input[type='password'] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+.loginBox input[type='submit'] {
+  border: none;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+  background: #1b9bff;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.loginBox input[type='submit']:hover {
+  background: #fff;
+  color: #262626;
+}
+.loginBox a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: box;
+}
+
+.success {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  height: 420px;
+  padding: 80px 40px;
+}
+h3 {
+  margin: 0;
+  padding: 0 0 20px;
+  color: #fff;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 100px;
+  font-weight: lighter;
+}
+.success input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.success input[type='French'],
+.success input[type='English'] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+.success input[type='submit'] {
+  border: none;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+  background: #1b9bff;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.success input[type='submit']:hover {
+  background: #fff;
+  color: #262626;
+}
