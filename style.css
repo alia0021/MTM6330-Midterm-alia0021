@@ -127,3 +127,7 @@ h3 {
   background: #fff;
   color: #262626;
 }
+
+.profile {
+  position: absolute;
+}
