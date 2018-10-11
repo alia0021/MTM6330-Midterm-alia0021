@@ -99,12 +99,12 @@ h3 {
   font-size: 100px;
   font-weight: lighter;
 }
-.success input {
+.success input,
+.submitButton {
   width: 100%;
   margin-bottom: 20px;
 }
-.success input[type='French'],
-.success input[type='English'] {
+.submitButton {
   border: none;
   border-bottom: 1px solid #fff;
   background: transparent;
@@ -113,17 +113,20 @@ h3 {
   color: #fff;
   font-size: 16px;
 }
-.success input[type='submit'] {
+.success input[type='submit'],
+.submitButton {
   border: none;
   outline: none;
   height: 40px;
   color: #fff;
-  font-size: 16px;
+  font-size: 30px;
   background: #1b9bff;
   cursor: pointer;
   border-radius: 20px;
+  display: inherit;
 }
-.success input[type='submit']:hover {
+.success input[type='submit']:hover,
+.submitButton:hover {
   background: #fff;
   color: #262626;
 }
