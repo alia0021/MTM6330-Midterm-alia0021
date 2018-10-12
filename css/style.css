@@ -139,7 +139,11 @@ h3 {
   color: #262626; }
 
 .profile {
-  position: absolute; }
+  position: absolute;
+  background: #3aa5f7;
+  border: 5px solid #ffffff;
+  border-radius: 27px;
+  background-image: 100%; }
 
 .portal {
   border-radius: 50%;
