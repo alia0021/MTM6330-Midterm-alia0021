@@ -29,15 +29,6 @@ body {
   top: calc(-100px / 2);
   left: calc(50% - 50px); }
 
-.user {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  overflow: hidden;
-  position: absolute;
-  top: calc(-100px / 2);
-  left: calc(50% - 50px); }
-
 h2 {
   margin: 0;
   padding: 0 0 20px;
@@ -97,12 +88,22 @@ h2 {
 
 h3 {
   margin: 0;
-  padding: 0 0 20px;
+  padding: 0 0 10px;
   color: #fff;
   font-family: sans-serif;
   text-align: center;
   font-size: 100px;
   font-weight: lighter; }
+
+h4 {
+  margin: 0;
+  padding: 0 0 30px;
+  color: #fff;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 50px;
+  font-weight: lighter;
+  line-height: 50%; }
 
 .success input,
 .submitButton {
@@ -116,7 +117,8 @@ h3 {
   outline: none;
   height: 40px;
   color: #fff;
-  font-size: 16px; }
+  font-size: 16px;
+  text-align: center; }
 
 .success input[type='submit'],
 .submitButton {
@@ -124,7 +126,7 @@ h3 {
   outline: none;
   height: 40px;
   color: #fff;
-  font-size: 30px;
+  font-size: 16px;
   background: #1b9bff;
   cursor: pointer;
   border-radius: 20px;
@@ -139,12 +141,40 @@ h3 {
   color: #262626; }
 
 .profile {
-  position: absolute;
-  background: #3aa5f7;
-  border: 5px solid #ffffff;
-  border-radius: 27px;
-  background-image: 100%; }
+  width: 375px;
+  height: 100%;
+  position: relative;
+  margin: auto; }
 
 .portal {
-  border-radius: 50%;
-  padding: 20px 20px; }
+  border-radius: 50%; }
+
+h5 {
+  margin: 0;
+  padding: 0 0 20px;
+  color: #fff;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 30px;
+  font-weight: lighter; }
+
+.profile input[type='submit'],
+.submitButton {
+  border: none;
+  outline: none;
+  height: 40px;
+  width: 55%;
+  color: #fff;
+  font-size: 16px;
+  background: #1b9bff;
+  cursor: pointer;
+  border-radius: 20px;
+  display: inherit;
+  text-decoration: none;
+  text-align: center;
+  line-height: 100%; }
+
+.profile input[type='submit']:hover,
+.submitButton:hover {
+  background: #fff;
+  color: #262626; }
