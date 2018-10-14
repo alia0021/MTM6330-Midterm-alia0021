@@ -7,7 +7,8 @@ body {
   background-size: cover;
   font-family: sans-serif;
   height: 100%;
-  width: 100%; }
+  width: 100%;
+  background-color: #1b9bff; }
 
 .loginBox {
   position: absolute;
@@ -101,14 +102,21 @@ h4 {
   color: #fff;
   font-family: sans-serif;
   text-align: center;
-  font-size: 50px;
+  font-size: 20px;
   font-weight: lighter;
   line-height: 50%; }
+
+.wrapper {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 20px; }
 
 .success input,
 .submitButton {
   width: 100%;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  line-height: 100%; }
 
 .submitButton {
   border: none;
@@ -178,3 +186,14 @@ h5 {
 .submitButton:hover {
   background: #fff;
   color: #262626; }
+
+@media (max-width: 768px) {
+  .loginBox,
+  .success,
+  .profile,
+  .portal,
+  h3,
+  h4 {
+    float: none;
+    text-align: center;
+    width: 60%; } }
