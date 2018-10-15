@@ -4,12 +4,15 @@ online tutorials  */
 body {
   margin: 0;
   padding: 0;
+  background-position: top;
   background-image: url('../../img/scott-webb-266121-unsplash.jpg');
+  background-repeat: no-repeat;
   background-size: cover;
   font-family: sans-serif;
-  height: 100%;
+  height: 100vh;
+  background-blend-mode: multiply;
   width: 100%;
-  background-color: #1b9bff;
+  background-color: #b4e4f8;
 }
 
 .loginBox {
@@ -118,13 +121,24 @@ h4 {
   display: inline-block;
   width: 100%;
   margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  .button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+    line-height: 100%;
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
 }
-.success input,
-.submitButton {
-  width: 100%;
-  margin-bottom: 20px;
-  line-height: 100%;
-}
+// .success input,
+// .submitButton {
+// }
 .submitButton {
   border: none;
   border-bottom: 1px solid #fff;
@@ -148,7 +162,7 @@ h4 {
   display: inherit;
   text-decoration: none;
   text-align: center;
-  line-height: 100%;
+  // line-height: 100%;
 }
 .success input[type='submit']:hover,
 .submitButton:hover {
@@ -194,6 +208,34 @@ h5 {
 .submitButton:hover {
   background: #fff;
   color: #262626;
+}
+.container-menu {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.box-message,
+.box-patient,
+.box-appointment,
+.box-order {
+  width: 20%;
+  padding: 20%;
+  border: 4px solid white;
+  margin: 0.5em auto;
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  text-align: center;
+  border-radius: 10%;
+  box-sizing: border-box;
+  font-size: 20px;
+  color: white;
+  background-color: #1b9bff;
 }
 
 @media (max-width: 768px) {
