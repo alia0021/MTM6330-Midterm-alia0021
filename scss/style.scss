@@ -219,32 +219,68 @@ h6 {
   background: #fff;
   color: #262626;
 }
-.container-menu {
-  text-align: center;
-  display: inline-block;
-  width: 100%;
-  margin-bottom: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-around;
-}
-.box {
-  width: 20%;
-  padding: 20%;
-  border: 4px solid white;
-  margin: 0.5em auto;
-  display: flex;
-  justify-content: space-around;
-  justify-items: center;
-  text-align: center;
-  border-radius: 10%;
-  box-sizing: border-box;
-  font-size: 20px;
-  color: white;
-  background-color: #1b9bff;
-}
 
+.container-menu {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+  .boxes {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    justify-items: center;
+
+    .box {
+      width: 50%;
+      height: 50px;
+      margin: 5px;
+      padding: 0;
+      background-color: #1b9bff;
+      padding: 20%;
+      border: 4px solid white;
+      margin: 0.5em auto;
+      color: white;
+      line-height: 50px;
+      border-radius: 10px;
+    }
+
+    .message {
+      background-image: url('../../img/rawpixel-594836-unsplash.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-blend-mode: multiply;
+      background-color: #1b9bff;
+    }
+    .patient {
+      background-image: url('../../img/rawpixel-665349-unsplash.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-blend-mode: multiply;
+      background-color: #1b9bff;
+    }
+    .appointment {
+      background-image: url('../../img/rawpixel-795650-unsplash.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-blend-mode: multiply;
+      background-color: #1b9bff;
+    }
+    .order {
+      background-image: url('../../img/simone-van-der-koelen-611419-unsplash.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-blend-mode: multiply;
+      background-color: #1b9bff;
+    }
+  }
+}
 @media (max-width: 768px) {
   .loginBox,
   .success,
@@ -253,7 +289,6 @@ h6 {
   h3,
   h4 {
     float: none;
-    text-align: center;
     width: 60%;
   }
 }
