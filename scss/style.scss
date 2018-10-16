@@ -1,5 +1,7 @@
 /* received helped through; https://www.youtube.com/watch?v=ylFLVBbB9AM
 online tutorials  */
+$font-stack: roboto, sans-serif;
+$primary-color: #1b9bff;
 
 body {
   margin: 0;
@@ -13,6 +15,8 @@ body {
   background-blend-mode: multiply;
   width: 100%;
   background-color: #b4e4f8;
+  font: 100% $font-stack;
+  color: $primary-color;
 }
 
 .loginBox {

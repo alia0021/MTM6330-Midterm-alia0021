@@ -11,7 +11,9 @@ body {
   height: 100vh;
   background-blend-mode: multiply;
   width: 100%;
-  background-color: #b4e4f8; }
+  background-color: #b4e4f8;
+  font: 100% roboto, sans-serif;
+  color: #1b9bff; }
 
 .loginBox {
   position: absolute;
