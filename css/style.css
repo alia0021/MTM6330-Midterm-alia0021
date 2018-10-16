@@ -1,5 +1,7 @@
-/* received helped through; https://www.youtube.com/watch?v=ylFLVBbB9AM
-online tutorials  */
+/* references; https://www.youtube.com/watch?v=ylFLVBbB9AM
+online tutorials, gulp files were retrieved from previous exercise provided by Prof.Robert L. McKenney
+ Received help tutor help from Mayank for some styling issues
+ pictures are royalty free taken from www.unsplash.com */
 body {
   margin: 0;
   padding: 0;
@@ -154,7 +156,7 @@ h4 {
   text-align: center; }
 
 .success input[type='submit']:hover,
-.submitButton:hover {
+.submitButton :hover {
   background: #fff;
   color: #262626; }
 
