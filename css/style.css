@@ -98,7 +98,7 @@ h3 {
   color: #fff;
   font-family: sans-serif;
   text-align: center;
-  font-size: 100px;
+  font-size: 5rem;
   font-weight: lighter; }
 
 h4 {
@@ -106,7 +106,7 @@ h4 {
   padding: 0 0 30px;
   color: #fff;
   font-family: sans-serif;
-  font-size: 15px;
+  font-size: 1rem;
   font-weight: lighter;
   line-height: 100%;
   text-align: center; }
@@ -159,13 +159,15 @@ h4 {
   color: #262626; }
 
 .profile {
-  width: 375px;
-  height: 100vh;
-  position: relative;
-  margin: auto; }
-
-.portal {
-  border-radius: 50%; }
+  width: 100%;
+  height: 100vh; }
+  .profile .portal {
+    width: 100px;
+    height: 100px;
+    margin: 10px auto; }
+    .profile .portal img {
+      width: 100%;
+      border-radius: 50%; }
 
 h5 {
   margin: 0;
@@ -219,19 +221,19 @@ h6 {
     text-align: center;
     justify-items: center; }
     .container-menu .boxes .box {
-      width: 50%;
-      height: 50px;
+      width: calc(70% / 2);
+      height: 100px;
       margin: 5px;
-      padding: 0;
       background-color: #1b9bff;
-      padding: 20%;
       border: 4px solid white;
       margin: 0.5em auto;
       color: white;
       font-size: 20px;
       font-family: sans-serif;
-      line-height: 50px;
-      border-radius: 10px; }
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
     .container-menu .boxes .message {
       background-image: url("../../img/rawpixel-594836-unsplash.jpg");
       background-position: center;
@@ -261,7 +263,7 @@ h6 {
       background-blend-mode: multiply;
       background-color: #1b9bff; }
 
-@media (max-width: 768px) {
+@media (min-width: 35rem) {
   .loginBox,
   .success,
   .profile,
@@ -269,4 +271,4 @@ h6 {
   h3,
   h4 {
     float: none;
-    width: 60%; } }
+    width: 100%; } }
