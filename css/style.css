@@ -277,3 +277,6 @@ h6 {
       background-size: cover;
       background-blend-mode: multiply;
       background-color: #1b9bff; }
+  @media (min-width: 76.5rem) {
+    .container-menu {
+      width: 500px; } }
