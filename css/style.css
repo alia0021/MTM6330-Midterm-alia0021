@@ -1,6 +1,6 @@
 /* references; https://www.youtube.com/watch?v=ylFLVBbB9AM
 online tutorials, gulp files were retrieved from previous exercise provided by Prof.Robert L. McKenney
- Received help tutor help from Mayank for some styling issues
+ Received help my tutor M.V for styling issues
  pictures are royalty free taken from www.unsplash.com */
 body {
   margin: 0;
@@ -279,4 +279,4 @@ h6 {
       background-color: #1b9bff; }
   @media (min-width: 76.5rem) {
     .container-menu {
-      width: 500px; } }
+      width: 100%; } }
