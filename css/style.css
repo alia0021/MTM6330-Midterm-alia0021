@@ -17,16 +17,29 @@ body {
   font: 100% roboto, sans-serif;
   color: #1b9bff; }
 
-.loginBox {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 350px;
-  height: 420px;
-  padding: 80px 40px;
-  box-sizing: border-box;
-  background: rgba(0, 0, 0, 0.5); }
+@media (min-width: 1rem) {
+  .loginBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 420px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.5); } }
+
+@media (min-width: 76.5rem) {
+  .loginBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 420px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.5); } }
 
 .user {
   width: 100px;
@@ -264,13 +277,3 @@ h6 {
       background-size: cover;
       background-blend-mode: multiply;
       background-color: #1b9bff; }
-
-@media (min-width: 35rem) {
-  .loginBox,
-  .success,
-  .profile,
-  .portal,
-  h3,
-  h4 {
-    float: none;
-    width: 100%; } }
